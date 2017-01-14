@@ -11,7 +11,7 @@
 html {
     background-color: #fff;
     color: #555;
-    font-family: 'Lato', 'Arial', sans-serif;
+    font-family: 'Abril Fatface', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -30,12 +30,58 @@ html {
 /* Reusable */
 /* ------------------------------------- */
 
+/* grid.css */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;    
+}
+
 /* Headers */
 
 h1 {
-    //color: #fff;
-    font-size: 200%;
+    color: #fff;
+    font-family: 'Tangerine', 'Snell Roundhand', cursive; /* weight is 700 */
+    font-size: 400%;
     word-spacing: 4px;
     letter-spacing: 1px;
     margin: 0;
+}
+
+h2 {
+    color: #000;
+}
+
+/* ------------------------------------- */
+/* Header */
+/* ------------------------------------- */
+
+header {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/books.jpg);
+    background-image: -ms-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/books.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/books.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    
+    min-height: 400px;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    padding-bottom: 1px; /* fix for firefox button cutoff bug */
+    top: 47%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
