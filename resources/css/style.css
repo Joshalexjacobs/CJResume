@@ -171,12 +171,10 @@ header {
 }
 
 .about-me p {
-    //margin-top: 35px;
     margin-bottom: 80px;
 }
 
 .about-me i {
-    //margin-top: 35px;
     width: 15%;
     text-align: right;
     float: left;
@@ -220,16 +218,47 @@ header {
 /* Awards */
 /* ------------------------------------- */
 
+.awards {
+    width: 100%;
+}
+
+.awards div div {
+    width: 45%;
+}
+
 .awards ul {
+    text-align: center; 
+    width: 100%;
     list-style: none;
-    width: 80%;
     margin: 0;
-    display: inline-block;
-    float: left;
+    margin-bottom: 25px;
 }
 
 .awards ul li {
-    //color: #fff;
     margin: 0;
+    margin-bottom: 15px;
+}
+
+/* ------------------------------------- */
+/* Skills */
+/* ------------------------------------- */
+
+.skills {
+    background-color: #f7f7f7;
+    //color: #fff;
+}
+
+.skills div {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.skills div ul {
+    margin-bottom: 50px;
+}
+
+.skills div ul li {
+    list-style: none;
+    text-align: center;
     margin-bottom: 15px;
 }
