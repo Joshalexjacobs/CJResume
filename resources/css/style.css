@@ -10,8 +10,9 @@
 
 html {
     background-color: #fff;
-    color: #555;
-    font-family: 'Abril Fatface', 'Arial', sans-serif;
+    /*color: #555;*/
+    color: #2f2f2f;
+    font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -52,10 +53,85 @@ h1 {
     word-spacing: 4px;
     letter-spacing: 1px;
     margin: 0;
+    text-shadow: 3px 3px #000;
+}
+
+h1:after {
+    display: block;
+    height: 2px;
+    background-color: #e2e2e2;
+    content: " ";
+    width: 100%;
+    margin-top: -15px;
 }
 
 h2 {
-    color: #000;
+    font-size: 225%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-top: 50px; 
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e2e2e2;
+    content: " ";
+    width: 130px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+h3 {
+    font-size: 170%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-top: 25px; 
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 125%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    line-height: 150%;
+    margin: 0;
+    margin-top: 10px; 
+    margin-bottom: 25px;
+    text-align: center;    
+}
+
+/* Icons */
+
+.icon-big {
+    font-size: 350%;
+    display: block;
+}
+
+.icon-small {
+    font-size: 250%;
+    display: block;
+}
+
+/* Paragraphs */
+
+p {
+    margin: 0;
+    font-size: 100%;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.long-copy {
+    font-size: 110%;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
 }
 
 /* ------------------------------------- */
@@ -84,4 +160,76 @@ header {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+/* ------------------------------------- */
+/* About */
+/* ------------------------------------- */
+
+.about-me {
+    
+}
+
+.about-me p {
+    //margin-top: 35px;
+    margin-bottom: 80px;
+}
+
+.about-me i {
+    //margin-top: 35px;
+    width: 15%;
+    text-align: right;
+    float: left;
+}
+
+/* ------------------------------------- */
+/* Education */
+/* ------------------------------------- */
+
+.education {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../img/sfsu.jpg);
+    background-image: -ms-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../img/sfsu.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/sfsu.jpg);    
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    //height: 40vh;
+}
+
+.education h2,
+.education h3,
+.education h4 {
+    color: #fff;
+    text-shadow: 3px 3px #000;
+}
+
+/*
+.education i {
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+} 
+*/
+
+.education h4 {
+    margin-bottom: 50px;
+}
+
+/* ------------------------------------- */
+/* Awards */
+/* ------------------------------------- */
+
+.awards ul {
+    list-style: none;
+    width: 80%;
+    margin: 0;
+    display: inline-block;
+    float: left;
+}
+
+.awards ul li {
+    //color: #fff;
+    margin: 0;
+    margin-bottom: 15px;
 }
