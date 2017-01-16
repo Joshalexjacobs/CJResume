@@ -192,49 +192,31 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    //height: 40vh;
-}
-
-.education h2,
-.education h3,
-.education h4 {
+    
+    width: 100%;
     color: #fff;
     text-shadow: 3px 3px #000;
 }
-
-/*
-.education i {
-    margin-bottom: 0;
-    margin-top: 0;
-    text-align: center;
-} 
-*/
 
 .education h4 {
     margin-bottom: 50px;
 }
 
-/* ------------------------------------- */
-/* Awards */
-/* ------------------------------------- */
+/* Recognitions and Awards */
 
-.awards {
-    width: 100%;
-}
-
-.awards div div {
+.education div div {
     width: 45%;
 }
 
-.awards ul {
+.education ul {
     text-align: center; 
     width: 100%;
     list-style: none;
     margin: 0;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
-.awards ul li {
+.education ul li {
     margin: 0;
     margin-bottom: 15px;
 }
@@ -261,4 +243,42 @@ header {
     list-style: none;
     text-align: center;
     margin-bottom: 15px;
+}
+
+/* ------------------------------------- */
+/* Sample */
+/* ------------------------------------- */
+
+.sample {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/typewriter.jpg);
+    background-image: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/typewriter.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/typewriter.jpg);    
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;    
+    
+    color: #fff;
+}
+
+.sample div div {
+    width: 100%;
+    margin: 0 auto;
+}
+
+iframe {
+    width: 100%;
+    height: 98vh;
+    margin: 0 auto;
+    margin-bottom: 75px;
+    display: inline-block;
+}
+
+/* ------------------------------------- */
+/* Footer */
+/* ------------------------------------- */
+
+footer {
+    background-color: #0a0a0a;
+    height: 15vh;
 }
