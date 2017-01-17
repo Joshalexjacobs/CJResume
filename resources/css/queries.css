@@ -55,6 +55,16 @@
         font-size: 90%;
     }
     
+    .education {
+        background-attachment: scroll;
+    }    
+    
+    /* Sample */
+    
+    .sample {
+        background-attachment: scroll;
+    }    
+    
     /* Footer */
     
     .leftfoot {
@@ -135,6 +145,16 @@
     .education p {
         font-size: 90%;
     }
+    
+    .education {
+        background-attachment: scroll;
+    }    
+    
+    /* Sample */
+    
+    .sample {
+        background-attachment: scroll;
+    }    
     
     /* Footer */
     
@@ -218,6 +238,16 @@
         font-size: 90%;
     }
     
+    .education {
+        background-attachment: scroll;
+    }    
+    
+    /* Sample */
+    
+    .sample {
+        background-attachment: scroll;
+    }    
+    
     /* Footer */
     
     .leftfoot {
@@ -292,6 +322,7 @@
     
     .hero-text-box {
         //max-width: 480px;
+        //transition: height 10s;
         width: 100%;
         //width: 480px;
     }
@@ -300,6 +331,16 @@
     
     .education p {
         font-size: 90%;
+    }
+    
+    .education {
+        background-attachment: scroll;
+    }    
+    
+    /* Sample */
+    
+    .sample {
+        background-attachment: scroll;
     }
     
     /* Footer */
@@ -324,4 +365,5 @@
         text-align: center;
         font-size: 75%;
     }
+    
 }

@@ -174,6 +174,9 @@ header {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    
+    /* chrome test http://stackoverflow.com/questions/24944925/background-image-jumps-when-address-bar-hides-ios-android-mobile-chrome */
+    transition: height 10s;
 }
 
 /* ------------------------------------- */
@@ -278,11 +281,12 @@ header {
 .sample div .span-1-of-1 {
     width: 100%;
     margin: 0 auto;
+    text-align: center;
 }
 
 iframe {
-    width: 100%;
-    height: 98vh;
+    width: 75%;
+    height: auto;
     margin: 0 auto;
     margin-bottom: 75px;
     display: inline-block;
