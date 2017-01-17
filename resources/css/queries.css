@@ -1,0 +1,327 @@
+/* --------------------------------*/
+/* 1024 - 1070px width             */
+/* --------------------------------*/
+
+@media only screen and (max-width: 1170px) {
+    html {
+        font-size: 20px;
+    }
+    
+    /* General */
+    
+    h1 {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 250%;
+    }
+    
+    h1:after {
+        display: none;
+    }
+    
+    h2 {
+        font-size: 200%;
+    }
+    
+    h3 {
+        font-size: 150%;
+    }
+    
+    h4 {
+        font-size: 120%;
+    }
+    
+    .icon-big {
+        display: none;
+    }
+    
+    .long-copy {
+        width: 75%;
+    }
+    
+    /* Header */
+    
+    header {
+        background-attachment: scroll;
+    }
+    
+    .hero-text-box {
+        width: 100%;
+    }
+    
+    /* Education */
+    
+    .education p {
+        font-size: 90%;
+    }
+    
+    /* Footer */
+    
+    .leftfoot {
+        width: 45%;
+        margin-top: 40px;
+        padding-left: 5%;
+    }
+
+    .rightfoot {
+        text-align: right;
+        padding-right: 5%;
+        width: 45%;
+        float: right;
+        margin-top: 40px;    
+    }    
+    
+    .copyright {
+        margin: 0 auto;
+        margin-top: 15px; 
+        text-align: center;
+        font-size: 75%;
+    }
+}
+
+/* --------------------------------*/
+/* 768 - 1023 px width              */
+/* --------------------------------*/
+
+@media only screen and (max-width: 1023px) {
+    html {
+        font-size: 19px;
+    }
+    
+    /* General */
+    
+    h1 {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 250%;
+    }
+    
+    h1:after {
+        display: none;
+    }
+    
+    h2 {
+        font-size: 200%;
+    }
+    
+    h3 {
+        font-size: 150%;
+    }
+    
+    h4 {
+        font-size: 120%;
+    }
+    
+    .icon-big {
+        display: none;
+    }
+    
+    .long-copy {
+        width: 75%;
+    }
+    
+    /* Header */
+    
+    header {
+        background-attachment: scroll;
+    }
+    
+    .hero-text-box {
+        width: 100%;
+    }
+    
+    /* Education */
+    
+    .education p {
+        font-size: 90%;
+    }
+    
+    /* Footer */
+    
+    .leftfoot {
+        width: 45%;
+        margin-top: 40px;
+        padding-left: 5%;
+    }
+
+    .rightfoot {
+        text-align: right;
+        padding-right: 5%;
+        width: 45%;
+        float: right;
+        margin-top: 40px;    
+    }    
+    
+    .copyright {
+        margin: 0 auto;
+        margin-top: 15px; 
+        text-align: center;
+        font-size: 75%;
+    }
+}
+
+
+/* --------------------------------*/
+/* 481 - 767 px width              */
+/* --------------------------------*/
+
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 19px;
+    }
+    
+    /* General */
+    
+    h1 {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 225%;
+    }
+    
+    h1:after {
+        display: none;
+    }
+    
+    h2 {
+        font-size: 200%;
+    }
+    
+    h3 {
+        font-size: 150%;
+    }
+    
+    h4 {
+        font-size: 120%;
+    }
+    
+    .icon-big {
+        display: none;
+    }
+    
+    .long-copy {
+        width: 75%;
+    }
+    
+    /* Header */
+    
+    header {
+        background-attachment: scroll;
+    }
+    
+    .hero-text-box {
+        width: 100%;
+    }
+    
+    /* Education */
+    
+    .education p {
+        font-size: 90%;
+    }
+    
+    /* Footer */
+    
+    .leftfoot {
+        width: 45%;
+        margin-top: 40px;
+        padding-left: 5%;
+    }
+
+    .rightfoot {
+        text-align: right;
+        padding-right: 5%;
+        width: 45%;
+        float: right;
+        margin-top: 40px;    
+    }    
+    
+    .copyright {
+        margin: 0 auto;
+        margin-top: 15px; 
+        text-align: center;
+        font-size: 75%;
+    }
+}
+
+/* --------------------------------*/
+/* 0 - 480 px width              */
+/* --------------------------------*/
+
+@media only screen and (max-width: 480px) {
+    
+    html {
+        font-size: 17px;
+    }
+    
+    /* General */
+    
+    h1 {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 225%;
+    }
+    
+    h1:after {
+        display: none;
+    }
+    
+    h2 {
+        font-size: 200%;
+    }
+    
+    h3 {
+        font-size: 150%;
+    }
+    
+    h4 {
+        font-size: 120%;
+    }
+    
+    .icon-big {
+        display: none;
+    }
+    
+    .long-copy {
+        width: 75%;
+    }
+    
+    /* Header */
+    
+    header {
+        background-attachment: scroll;
+    }
+    
+    .hero-text-box {
+        //max-width: 480px;
+        width: 100%;
+        //width: 480px;
+    }
+    
+    /* Education */
+    
+    .education p {
+        font-size: 90%;
+    }
+    
+    /* Footer */
+    
+    .leftfoot {
+        width: 45%;
+        margin-top: 40px;
+        padding-left: 5%;
+    }
+
+    .rightfoot {
+        text-align: right;
+        padding-right: 5%;
+        width: 45%;
+        float: right;
+        margin-top: 40px;    
+    }    
+    
+    .copyright {
+        margin: 0 auto;
+        margin-top: 15px; 
+        text-align: center;
+        font-size: 75%;
+    }
+}
