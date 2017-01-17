@@ -16,6 +16,7 @@ html {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    transition: height 10s;
 }
 
 .clearfix {zoom: 1}
@@ -163,6 +164,9 @@ header {
     background-attachment: fixed;
     
     min-height: 400px;
+    
+    /* chrome test http://stackoverflow.com/questions/24944925/background-image-jumps-when-address-bar-hides-ios-android-mobile-chrome */
+    //transition: height 10s;
 }
 
 .hero-text-box {
@@ -174,9 +178,6 @@ header {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    
-    /* chrome test http://stackoverflow.com/questions/24944925/background-image-jumps-when-address-bar-hides-ios-android-mobile-chrome */
-    transition: height 10s;
 }
 
 /* ------------------------------------- */
